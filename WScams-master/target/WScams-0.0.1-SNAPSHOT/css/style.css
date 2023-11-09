@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.wrapper{
+	display: grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:5px;
+}
+
+video, canvas, img{
+	width: 400px;
+	height: 400px;
+	background-color: #000;
+}
+
+.start-btn,
+.start-btn:hover {
+	min-width: 200px;
+	max-width: 300px;
+	font-size: 1rem;
+}
+
+.uploadcare--tab_name_recorder {
+	flex-direction: column;
+	align-items: center;
+}
+
+.uploadcare--widget__button {
+	padding: 0.75em;
+}
